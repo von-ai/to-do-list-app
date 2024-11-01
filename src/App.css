@@ -40,3 +40,44 @@
 .read-the-docs {
   color: #888;
 }
+
+.to-do-list {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input[type='text'] {
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(49, 49, 49);
+  border: 3px solid rgb(33, 33, 33);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.button-delete,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
